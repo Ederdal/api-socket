@@ -16,8 +16,8 @@ export const getAll = (req, res) => {
 export const insertOne = (req, res) => {
   lecturasDAO.insertOne(req.body)
     .then(result => {
-      console.log("Producto guardado");
-      res.json({ message: "Producto guardado exitosamente" }); // Respuesta JSON sin URL de redirección
+      console.log("Lectura guardada");
+      res.json({ message: "Lectura guardado exitosamente" }); 
     })
     .catch(err => {
       console.error(err);
