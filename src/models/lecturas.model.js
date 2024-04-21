@@ -5,7 +5,7 @@ const lecturasSchema = new Schema({
     L_temperatura: Number, 
     L_humedad: Number, 
     L_proximidad: Number, 
-    Servo: Number
+    Servo: Boolean
   
   
 },
